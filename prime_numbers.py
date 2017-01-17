@@ -8,3 +8,4 @@ for num in range(first_no,second_no):
             break
     else:
         print(num)
+        """this code is used to generate prime numbers"""
