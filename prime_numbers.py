@@ -9,3 +9,4 @@ for num in range(first_no,second_no):
     else:
         print(num)
         """this code is used to generate prime numbers"""
+        """after the prime numbers are generated they are printed out"
