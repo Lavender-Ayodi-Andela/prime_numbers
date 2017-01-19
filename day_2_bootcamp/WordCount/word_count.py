@@ -1,7 +1,9 @@
 def words(x):
     #split words in x into list
+    #empty dictionary
+    #counts no. of word occurence and prints it alongside word in dictionary
     wlist = x.split()  
-    #empty dictionary 
+     
     diction = {}
     for word in wlist:     
         if word in diction:  
