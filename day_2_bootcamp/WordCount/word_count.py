@@ -12,5 +12,5 @@ def words(x):
             diction[word] = 1
      
     for word in sorted(diction, key = diction.get):
-        print ("%s:'%d'" % (word, diction[word]))
-        print diction
+    return ("%s:'%d'" % (word, diction[word]))
+        
