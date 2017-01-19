@@ -7,7 +7,14 @@ def find_max_min(num):
 		for x in num:
 			min_max_list.append (min(num))
 			min_max_list.append (max(num))
+
+			minimum = min(num)
+			maximum = max(num)
+
+		if minimum != maximum:
 			return min_max_list
+		else:
+			return [minimum]
 
 	except Exception as e:
 		return 'invalid entry'
