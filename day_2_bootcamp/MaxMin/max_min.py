@@ -11,10 +11,10 @@ def find_max_min(num):
 			minimum = min(num)
 			maximum = max(num)
 
-		if minimum != maximum:
-			return min_max_list
-		else:
-			return [minimum]
+			if minimum != maximum:
+				return min_max_list
+			else:
+				return [minimum]
 
 	except Exception as e:
 		return 'invalid entry'
