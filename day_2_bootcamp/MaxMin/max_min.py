@@ -10,9 +10,9 @@ def find_max_min(num):
 			if minimum != maximum:
 				return [minimum,maximum]
 			else:
-				return [minimum]
+				return len([num])
 
-	except Exception as e:
+	except Exception:
 		return 'invalid entry'
 		
 
