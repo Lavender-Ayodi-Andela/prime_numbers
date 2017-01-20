@@ -24,9 +24,11 @@ class BinarySearch(list):
                    
             if first == last:
                 found = True
+                for arg in list:
+                    list.index(arg)
                 #adding count and index to dictionary
                 dict_[count] = count
-                dict_[index] = -1
+                dict_[index] = list.index(arg)
                 return dict_
 
 	
