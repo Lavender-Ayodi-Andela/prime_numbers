@@ -1,9 +1,9 @@
 class BinarySearch(list):
-
+    #length and step
   def __init__(self,a,b):
     super(BinarySearch, self).__init__(range(0, (a*b)+1, b)[1:])
     self.length = a
-
+    #searchmethod
     def search(self,arg):
         first = 0
         last = len(self) - 1
@@ -24,7 +24,7 @@ class BinarySearch(list):
                    
             if first == last:
                 found = True
-
+                #adding count and index to dictionary
                 dict_[count] = count
                 dict_[index] = -1
                 return dict_
